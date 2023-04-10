@@ -34,7 +34,7 @@
 				$language_file = "./application/language/$lf/main_lang.php";
 
 				//select l_index and l_value from table
-				$sql = "SELECT l_index,l_value FROM ". $dbprefix ".language_data WHERE l_name='".$lf."';";
+				$sql = "SELECT l_index,l_value FROM ". $dbprefix .".language_data WHERE l_name='".$lf."';";
 				$sql = str_replace("%dbprefix%",$dbprefix,$sql);
 				$result = mysqli_query($con, $sql);
 				$i=1;
