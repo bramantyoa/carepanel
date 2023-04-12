@@ -18,7 +18,7 @@
 ?>
 <html>
     <head>
-        <title>Chikitsa - Patient Management System</title>
+        <title>Carepanel - Clinic Management System</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 
 		<!-- Custom fonts for this template -->
@@ -1466,10 +1466,10 @@ $( window ).load(function() {
 				<img src="./uploads/images/logo.png" alt="Chikitsa" width="100px">
 				<div class="ast-site-title-wrap">
 						<h1 class="site-title" itemprop="name">
-                        Chikitsa
+                        Carepanel
                         </h1>
 						<p class="site-description" itemprop="description">
-                        Clinic/Hospital Management System
+                        Clinic Management System
                         </p>
 				</div>
 			</div>

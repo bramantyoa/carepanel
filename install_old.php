@@ -18,7 +18,7 @@
 ?>
 <html>
     <head>
-        <title>Chikitsa - Patient Management System</title>
+        <title>Carepanel - Clinic Management System</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 
 		<!-- Custom fonts for this template -->
