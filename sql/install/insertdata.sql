@@ -32,11 +32,11 @@ INSERT INTO %dbprefix%contact_details (contact_id,type,detail) SELECT contact_id
 INSERT INTO %dbprefix%contact_details (contact_id,type,detail) SELECT contact_id,'mobile',second_number FROM %dbprefix%contacts WHERE (second_number IS NOT NULL AND second_number != '') AND contact_id IN (SELECT contact_id FROM %dbprefix%patient);
 INSERT INTO %dbprefix%menu_access (menu_name, category_name, allow) SELECT navigation_menu.menu_name,'System Administrator', '1' FROM %dbprefix%navigation_menu AS navigation_menu WHERE navigation_menu.menu_name NOT IN (SELECT menu_name FROM %dbprefix%menu_access WHERE category_name = 'System Administrator');
 INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ('default_language', 'english');
-INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ('default_timezone', 'UTC');
-INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ('default_timeformate', 'h:i A');
-INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ('default_dateformate', 'd-m-Y');
+INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ('default_timezone', 'Asia/Jakarta');
+INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ('default_timeformate', 'H:i');
+INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ('default_dateformate', 'd M Y');
 INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ( 'working_days', '7,1,2,3,4,5,6');
-INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ( 'software_name', 'Chikitsa');
+INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ( 'software_name', 'Carepanel');
 INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ( 'copyright_text', '&copy; 2020 Sanskruti Technologies');
 INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ( 'copyright_url', 'http://sanskruti.net/ ');
 INSERT INTO %dbprefix%data (ck_key, ck_value) VALUES ( 'website_text', 'Chikitsa');
