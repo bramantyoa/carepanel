@@ -84,7 +84,7 @@
                   <div class="text-center">
 					<h1 class="h4 text-gray-900 mb-4">
 					<?php if($clinic['clinic_logo'] != NULL){  ?>
-						<img src="<?php echo base_url().$clinic['clinic_logo']; ?>" alt="Logo"  height="80" width="130" />
+						<img src="<?php echo base_url().$clinic['clinic_logo']; ?>" alt="Logo"  height="82" width="82" />
 					<?php  }elseif($clinic['clinic_name'] != NULL){  ?>
 						<?= $clinic['clinic_name'];?>
 					<?php  } else { ?>
